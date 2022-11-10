@@ -1,16 +1,37 @@
-# labs
+PBP Assignment 7 
+----------------
+**Name : Dylan Dahran Pribadi**
+**NPM  : 2106720872**
 
-A new Flutter project.
+-----------------
 
-## Getting Started
+>1. Explain what is meant by stateless widget and stateful widget and explain the difference between them.
 
-This project is a starting point for a Flutter application.
+- with the base word of "state" both stateless and stateful widget means the widget's state or the widget's condition. A stateless widget means that there is no state or condition, in this definition, stateless widget means the widget can't be changed or it is static. On the other hand, stateful means the widget can be changed dynamically based on a state or condition.
 
-A few resources to get you started if this is your first Flutter project:
+>2. Mention what widgets you use in this project and explain their functions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Text() : basically shows text
+- Padding() : giving distance to the widget in all direction
+- SizedBox(): creating a box with a certain size
+- Row(): customizing widget in x axis
+- Column(): customizing widget in y axis
+- FloatingActionButton(): make a certain button do an action after clicked
+- MaterialApp(): initializing title, theme, and other bases of children widgets
+- Scaffold(): a return for the body implemented
+- AppBar(): to show content
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>3. What is the function of setState()? Explain what variables that can be affected by the function.
+
+- it is basically functioned to change what's inside a stateful widget with a new value. Variables that are affected in this assignment are _counter and _counter > 0 (showing a decrement floating button).
+
+>4. Explain the difference between const and final.
+
+- Const : Behaves exactly like the final keyword. But, const makes the variable constant from compile-time only
+- Final : used to hardcode the values of the variable and it cannot be altered in the future, neither any kind of operations performed on these variables can alter its value (state).
+
+>5. Explain how you implement the checklist above.
+
+- create the flutter app named counter_7
+- create a function to decrement, increment and renew _counter
+- adds 2 FloatingActionButton() to trigger the decrement and increment function
